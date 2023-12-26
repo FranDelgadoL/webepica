@@ -170,3 +170,20 @@ h2, p {text-align: center;
     color: whitesmoke; /* Color del enlace, ajusta según sea necesario */
     text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
 }
+
+#tour {
+    text-align: center;
+}
+
+.tour-dates {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tour-date {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
