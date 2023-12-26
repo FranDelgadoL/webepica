@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/leonardo2.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    padding-top: 150px;
+    
+}
+
+#header_container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Add your desired background color */
+    z-index: 1000; /* Set a high z-index to ensure it's above other elements */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0em;
+}
+
+header h1 img {
+    max-width: 80%; /* Adjust the percentage to your preference */
+    width: 80px; /* Set a specific width if needed */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 5px; /* Add rounded corners, adjust as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow, adjust as needed */
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 3rem;
+}
+
+@font-face {
+    font-family: 'Hedvig Letters Serif';
+    src: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/HedvigLettersSerif_14pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sawarabi';
+    src: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/SawarabiMincho-Regular.ttf') format('truetype');
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    text-shadow: 1px 1px 2px rgba(221, 220, 220, 0.986); /* Add a text shadow */
+    transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+nav ul li:hover a {
+    color: darkcyan; /* Change the text color on hover */
+}
+
+
+a {
+    color: white;              /*   #FDF75E     */
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    color: darkcyan;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: white;
+    text-align: center;
+    max-width: 500px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the element horizontally */
+}
+
+h2, p {text-align: center;
+       font-family: 'Ubuntu', sans-serif;
+}
+
+
+#social-icons-header img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    margin-bottom: 0px; /* Increase the space between icons */
+    margin-left:10px;
+    margin-right: 40px;
+}
+
+#social-icons-header2 {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+    background-color:whitesmoke;
+    max-width: 800px;
+    border-radius: 10px; /* Adjust the radius as needed */
+    overflow: hidden;
+}
+
+#social-icons-header2 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px; /* Adjust margin as needed */
+    margin-left: 30px; /* Adjust margin as needed */
+}
+
+#social-icons-header3 {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+    background-color: whitesmoke;
+    max-width: 800px;
+    border-radius: 10px; /* Adjust the radius as needed */
+    overflow: hidden;
+}
+
+#social-icons-header3 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px; /* Adjust margin as needed */
+    margin-left: 30px; /* Adjust margin as needed */
+}
+
+#contact {
+    text-align: center; /* Centra el texto y los elementos dentro de la sección */
+    padding: 2em; /* Añade un relleno para mayor espacio alrededor del contenido */
+}
+
+#contact h2 {
+    color: darkcyan; /* Color del texto, ajusta según sea necesario */
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 15px; /* Espaciado entre elementos de la lista */
+}
+
+#contact a {
+    color: whitesmoke; /* Color del enlace, ajusta según sea necesario */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+}
