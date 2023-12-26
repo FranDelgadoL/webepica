@@ -1,9 +1,9 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/leonardo2.jpg');
+    background-image: url('leonardo2.jpg');
     background-size:cover;
     background-attachment:fixed;
     padding-top: 150px;
@@ -42,18 +42,8 @@ nav ul {
 }
 
 @font-face {
-    font-family: 'Hedvig Letters Serif';
-    src: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/HedvigLettersSerif_14pt-Regular.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'Ubuntu';
-    src: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/Ubuntu-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Sawarabi';
-    src: url('C:/Users/FranciscoDelgado/Desktop/fd miscel/proyectowebepica/SawarabiMincho-Regular.ttf') format('truetype');
+    src: url('Ubuntu-Regular.ttf') format('truetype');
 }
 
 nav ul li {
