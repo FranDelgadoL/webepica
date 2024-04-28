@@ -3,17 +3,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url('1.png');
-    background-size: 60% ; 
+    background-size: 70% ; 
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center left; /* Posición de la imagen de fondo */
+    background-position: bottom left; /* Posición de la imagen de fondo */
     background-color: crimson;
 }
 
 @media (max-width: 768px) {
     body {
-        background-position: top center; /* Posición en dispositivos móviles */
-        background-size: 50% auto; /* Ajustar la imagen al tamaño de la pantalla */
+        background-position: center; /* Posición en dispositivos móviles */
+        background-size: 100%; /* Ajustar la imagen al tamaño de la pantalla */
     }
 }
 
