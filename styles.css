@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url('1.png');
-    background-size: 100%; /* Tamaño de la imagen al 100% de la pantalla en dispositivos móviles */
+    background-size: 75%; 
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center left; /* Posición de la imagen de fondo */
