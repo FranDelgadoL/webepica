@@ -3,12 +3,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url('1.png');
-    background-size: 60%;
-    background-attachment:fixed;
+    background-size: 80%; /* Tamaño más grande en dispositivos móviles */
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center left; /* Centrar la imagen en la versión móvil */
     background-color: crimson;
-    
+}
+
+@media (min-width: 768px) {
+    body {
+        background-size: 60%; /* Tamaño original en dispositivos de escritorio */
+    }
 }
 
 
