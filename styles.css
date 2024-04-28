@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url('1.png');
-    background-size: 80%; /* Tamaño más grande en dispositivos móviles */
+    background-size: 100%; /* Tamaño más grande en dispositivos móviles */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center left; /* Centrar la imagen en la versión móvil */
@@ -253,8 +253,7 @@ footer {
     text-align: center;
     padding: 10px; 
     margin: 0; 
-    width: 100%;
-    position: fixed; 
+    width: 100%; 
     bottom: 0;
 }
 
