@@ -10,12 +10,11 @@ body {
     background-color: crimson;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     body {
-        background-size: 60%; /* Tamaño original en dispositivos de escritorio */
+        background-position: top center; /* Posición en dispositivos móviles */
+        background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
     }
-}
-
 
 #header_container {
     /* position: fixed; */
